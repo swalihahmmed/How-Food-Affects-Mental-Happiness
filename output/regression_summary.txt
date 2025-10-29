@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              stock_ret   R-squared:                       0.404
+Model:                            OLS   Adj. R-squared:                  0.400
+Method:                 Least Squares   F-statistic:                     83.89
+Date:                Wed, 29 Oct 2025   Prob (F-statistic):           1.58e-28
+Time:                        00:23:32   Log-Likelihood:                 826.48
+No. Observations:                 250   AIC:                            -1647.
+Df Residuals:                     247   BIC:                            -1636.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0001      0.001     -0.200      0.842      -0.001       0.001
+market_ret     0.7259      0.059     12.395      0.000       0.611       0.841
+oil_ret        0.1876      0.047      3.971      0.000       0.095       0.281
+==============================================================================
+Omnibus:                        0.092   Durbin-Watson:                   2.115
+Prob(Omnibus):                  0.955   Jarque-Bera (JB):                0.216
+Skew:                          -0.014   Prob(JB):                        0.897
+Kurtosis:                       2.859   Cond. No.                         104.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
